@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h4, h6 {
+    font-family: 'Monsterrat', sans-serif;
+}
+/* NAVBAR-------------------*/
+
+#header {
+    display: flex;
+    height: 2.5em;
+    background-color: rgb(27, 27, 27);
+    justify-content: space-around;
+}
+
+#header-img {
+    height: 2em;
+}
+
+#logo {
+    display: flex;
+    width: 70vw;
+}
+
+#logo-name {
+    color: brown;
+    font-weight: 300;
+    font-size: 2em;
+    align-self: center;
+}
+
+
+#nav-bar {
+    align-content: center;
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-self: center;
+}
+
+
+li {
+    padding-right: 2em;
+}
+
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover {
+    color: brown;
+}
