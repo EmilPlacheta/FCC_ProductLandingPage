@@ -14,11 +14,13 @@ body {
 h1, h2, h4, h6 {
     font-family: 'Monsterrat', sans-serif;
 }
-/* NAVBAR-------------------*/
+/* NAVBAR-------------------------------*/
 
 #header {
+    position: fixed;
     display: flex;
     height: 2.5em;
+    width: 100vw;
     background-color: rgb(27, 27, 27);
     justify-content: space-around;
 }
@@ -33,7 +35,7 @@ h1, h2, h4, h6 {
 }
 
 #logo-name {
-    color: brown;
+    color: rgb(248, 216, 37);
     font-weight: 300;
     font-size: 2em;
     align-self: center;
@@ -63,5 +65,44 @@ li {
 }
 
 .nav-link:hover {
-    color: brown;
+    color: rgb(248, 216, 37);
+}
+
+
+/* HERO IMAGE---------------------------*/
+
+
+#img-container {
+    background: url(img/hero.jpg) no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+/* FORM---------------------------*/
+
+form {
+    display: flex;
+    margin: -12em auto;
+    flex-direction: column;
+    width: 20vw;
+}
+
+#email {
+    height: 3em;
+    background-color: #333;
+    color: antiquewhite;
+    border: none;
+    font-size: 1em;
+}
+
+.btn {
+    color: #fff;
+    background-color: rgb(248, 216, 37);
+    border: none;
+    margin-top: 2em;
+    padding: 0.7em;
+    font-size: 1em;
+    text-transform: uppercase;
 }
