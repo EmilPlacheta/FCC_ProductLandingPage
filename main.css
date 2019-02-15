@@ -9,6 +9,8 @@
 
 body {
     font-family: 'Raleway', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 h1, h2, h4, h6 {
@@ -20,8 +22,7 @@ h1, h2, h4, h6 {
     position: fixed;
     display: flex;
     height: 2.5em;
-    width: 100vw;
-    background-color: rgb(27, 27, 27);
+    background-color: orange;
     justify-content: space-around;
 }
 
@@ -35,16 +36,17 @@ h1, h2, h4, h6 {
 }
 
 #logo-name {
-    color: rgb(248, 216, 37);
-    font-weight: 300;
+    color: rgb(27, 27, 27);
+    font-weight: 800;
     font-size: 2em;
-    align-self: center;
+    align-self: center; 
 }
 
 
 #nav-bar {
     align-content: center;
     display: flex;
+    width: 100vw;
 }
 
 ul {
@@ -61,11 +63,12 @@ li {
 
 .nav-link {
     text-decoration: none;
-    color: white;
+    color: rgb(27, 27, 27);
 }
 
 .nav-link:hover {
-    color: rgb(248, 216, 37);
+    color: #000;
+    border-bottom: 1px solid rgb(27, 27, 27);
 }
 
 
@@ -80,12 +83,13 @@ li {
 }
 
 
-/* FORM---------------------------*/
+/* --form-------------------------*/
 
 form {
     display: flex;
-    margin: -12em auto;
     flex-direction: column;
+    position: relative;
+    margin: -12em auto;
     width: 20vw;
 }
 
@@ -95,14 +99,82 @@ form {
     color: antiquewhite;
     border: none;
     font-size: 1em;
+    box-shadow: 3px 5px 10px black;
 }
 
 .btn {
-    color: #fff;
-    background-color: rgb(248, 216, 37);
+    color: rgb(27, 27, 27);
+    background-color: orange;
     border: none;
     margin-top: 2em;
     padding: 0.7em;
     font-size: 1em;
     text-transform: uppercase;
+    box-shadow: 3px 5px 10px;
+}
+
+.btn:hover {
+    color: orange;
+    background-color: rgb(27, 27, 27);
+    box-shadow: none;
+
+}
+
+/* MAIN---------------------------*/
+
+#main {
+    display: flex;
+    position: relative;
+    top: 20em;
+    background-color: #fff;
+}
+
+#main-heading {
+    font-size: 5em;
+    width: 100vw;
+    margin-top: 1.6em;
+    margin-left: 2em;
+    padding-top: 0.2em;
+    padding-left: 0.3em;
+    text-transform: uppercase;
+    background-color: orange;
+    color: rgb(27, 27, 27);
+    box-shadow: 3px 5px 10px;
+}
+
+#brewing {
+    font-size: 1.2em;
+}
+
+/* --cards-------------------------*/
+.product-card {
+    display: flex;
+    flex-direction: row;
+    margin-top: 7em;    
+}
+
+.card-img {
+    margin-left: 10em;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10em;
+    max-width: 60vw;
+}
+
+.card-heading {
+    font-size: 3em;
+    font-weight: 200;
+    margin-bottom: 1.5em;
+    color: rgb(27, 27, 27);
+
+}
+
+.card-paragraph {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: solid 1px rgb(190, 190, 190);
+    border-bottom: solid 1px rgb(190, 190, 190);
 }
