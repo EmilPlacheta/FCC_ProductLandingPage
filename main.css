@@ -137,12 +137,12 @@ form {
     padding-top: 0.2em;
     padding-left: 0.3em;
     text-transform: uppercase;
-    background-color: orange;
+    background-color: rgb(74, 165, 226);
     color: rgb(27, 27, 27);
     box-shadow: 3px 5px 10px;
 }
 
-#brewing {
+#brewing-span {
     font-size: 1.2em;
 }
 
@@ -170,6 +170,8 @@ form {
     margin-bottom: 1.5em;
     color: rgb(27, 27, 27);
 
+    
+
 }
 
 .card-paragraph {
@@ -178,3 +180,44 @@ form {
     border-top: solid 1px rgb(190, 190, 190);
     border-bottom: solid 1px rgb(190, 190, 190);
 }
+
+/* VIDEO---------------------------*/
+
+#video-section {
+    margin-left: 10em;
+    margin-top: 35em;
+}
+
+#video-container {
+    display: flex;
+}
+
+#video-heading {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    line-height: 9em;
+    
+}
+
+#how-heading {
+    font-size: 6em;
+    
+}
+
+#we-heading {
+    font-size: 9.2em;
+    background-color: rgb(74, 165, 226);
+}
+
+#do-it-heading {
+    font-size: 5.5em;
+    line-height: 1.3em;
+    margin: auto;
+}
+
+#video {
+    margin-left: 5em;
+}
+
+
