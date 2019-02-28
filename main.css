@@ -22,7 +22,7 @@ h1, h2, h4, h6 {
     position: fixed;
     display: flex;
     height: 2.5em;
-    background-color: orange;
+    background-color: rgb(74, 165, 226);
     justify-content: space-around;
 }
 
@@ -40,6 +40,7 @@ h1, h2, h4, h6 {
     font-weight: 800;
     font-size: 2em;
     align-self: center; 
+    margin-left: 0.3em;
 }
 
 
@@ -72,7 +73,7 @@ li {
 }
 
 
-/* HERO IMAGE---------------------------*/
+/* HERO IMAGE + TEXT---------------------*/
 
 
 #img-container {
@@ -82,6 +83,20 @@ li {
     height: 100vh;
 }
 
+#hero-text {
+    font-size: 12em;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -3.2em;
+    padding-top: 0.2em;
+    color: rgb(74, 165, 226);
+    background-color: rgba(27, 27, 27, 0.6);
+    border-top: 0.1em solid rgb(74, 165, 226);
+    border-bottom: 0.1em solid rgb(74, 165, 226);
+}
+
 
 /* --form-------------------------*/
 
@@ -89,7 +104,8 @@ form {
     display: flex;
     flex-direction: column;
     position: relative;
-    margin: -12em auto;
+    top: -28em;
+    margin: auto;
     width: 20vw;
 }
 
@@ -104,7 +120,7 @@ form {
 
 .btn {
     color: rgb(27, 27, 27);
-    background-color: orange;
+    background-color: rgb(74, 165, 226);;
     border: none;
     margin-top: 2em;
     padding: 0.7em;
@@ -114,7 +130,7 @@ form {
 }
 
 .btn:hover {
-    color: orange;
+    color: rgb(74, 165, 226);;
     background-color: rgb(27, 27, 27);
     box-shadow: none;
 
@@ -125,7 +141,7 @@ form {
 #main {
     display: flex;
     position: relative;
-    top: 20em;
+    margin-top: -15em;
     background-color: #fff;
 }
 
@@ -185,7 +201,7 @@ form {
 
 #video-section {
     margin-left: 10em;
-    margin-top: 35em;
+    margin-top: 15em;
 }
 
 #video-container {
