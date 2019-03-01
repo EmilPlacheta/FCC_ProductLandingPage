@@ -21,13 +21,16 @@ h1, h2, h4, h6 {
 #header {
     position: fixed;
     display: flex;
-    height: 2.5em;
+    z-index: 10;
+    height: 3em;
     background-color: rgb(74, 165, 226);
     justify-content: space-around;
 }
 
 #header-img {
-    height: 2em;
+    height: 3em;
+    padding-top: 0.4em;
+    padding-left: 1em;
 }
 
 #logo {
@@ -36,11 +39,12 @@ h1, h2, h4, h6 {
 }
 
 #logo-name {
-    color: rgb(27, 27, 27);
-    font-weight: 800;
+    color: rgba(27, 27, 27, 0.95);
+    font-weight: 600;
     font-size: 2em;
     align-self: center; 
     margin-left: 0.3em;
+    padding-top: 0.2em;
 }
 
 
