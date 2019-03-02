@@ -11,6 +11,7 @@ body {
     font-family: 'Raleway', sans-serif;
     overflow-y: scroll;
     overflow-x: hidden;
+
 }
 
 h1, h2, h4, h6 {
@@ -25,12 +26,13 @@ h1, h2, h4, h6 {
     height: 3em;
     background-color: rgb(74, 165, 226);
     justify-content: space-around;
+    box-shadow: 3px 5px 10px rgb(27, 27, 27);;
 }
 
 #header-img {
     height: 3em;
     padding-top: 0.4em;
-    padding-left: 1em;
+    padding-left: 10em;
 }
 
 #logo {
@@ -171,11 +173,9 @@ form {
     display: flex;
     flex-direction: row;
     margin-top: 7em;    
-}
-
-.card-img {
     margin-left: 10em;
 }
+
 
 .card-text {
     display: flex;
@@ -241,3 +241,113 @@ form {
 }
 
 
+/* FOOTER----------------------------*/
+
+#footer-container {
+    display: flex;
+    margin-top: 10em;
+    padding-top: 2em;
+    background-color: rgb(27, 27, 27);
+    color: #fff;
+    height: 8em;
+}
+
+#copyright {
+    margin-left: 10em;
+    width: 40vw;
+    display: flex;
+    align-self: baseline;
+}
+
+#footer-links {
+    align-self: baseline;
+}
+
+#footer-links ul {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+#footer-links ul li a {
+    color: #fff;
+}
+
+#footer-links ul li a:hover {
+    border-bottom: solid 1px #fff;
+}
+
+/* MEDIA QUERIES---------------------*/
+
+@media (max-width: 768px) {
+    #hero-text {
+        display: none;
+    }
+
+    #logo {
+        width: 50vw;
+    }
+
+    form {
+        width: 60vw;
+    }
+
+    #main-heading {
+        font-size: 2em;
+        width: 100vw;
+        margin-top: 1.6em;
+        margin-left: 2em;
+        padding-top: 0.2em;
+        padding-left: 0.3em;
+        text-transform: uppercase;
+        background-color: rgb(74, 165, 226);
+        color: rgb(27, 27, 27);
+        box-shadow: 3px 5px 10px;
+    }
+    
+    #brewing-span {
+        font-size: 1.2em;
+    }
+
+    .product-card {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .card-img {
+        margin-left: 10em;
+        margin-top: 5em;
+    }
+
+    #video-section {
+    margin-left: auto;
+    }
+
+    #video-container {
+        flex-direction: column;
+    }
+
+    #video-heading {
+        margin: auto;
+    }
+
+    #video-section {
+        flex-direction: column;
+        margin-top: 7em;
+    }
+
+
+    #video {
+        margin: auto;
+        width: 99.9%;
+    }
+
+    #main {
+        margin-top: -1em;
+    
+    }
+
+
+
+}
