@@ -118,6 +118,7 @@ form {
 
 #email {
     height: 3em;
+    padding-left: 1em;
     background-color: #333;
     color: antiquewhite;
     border: none;
